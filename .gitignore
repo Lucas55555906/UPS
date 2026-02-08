@@ -1,0 +1,6 @@
+# backups
+*.bak
+*backups*
+
+# cache files
+fp-*cache
