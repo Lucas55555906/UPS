@@ -5,6 +5,16 @@
 	(uuid "9d92b60a-4a6b-449c-b462-cab19e69d38c")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 100.33 55.88) (xy 113.03 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2adae19b-f28b-48b5-bb43-17a370420cc0")
+	)
 	(sheet
 		(at 26.67 27.94)
 		(size 73.66 60.96)
@@ -39,10 +49,82 @@
 				(justify left top)
 			)
 		)
+		(pin "VSYS" input
+			(at 100.33 55.88 0)
+			(uuid "69ca1765-4fe0-4828-9f2b-62f771212967")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "UPS"
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 27.94)
+		(size 68.58 60.452)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "66173f08-558e-4192-bd35-ba55c00529e3")
+		(property "Sheetname" "BoostConvertor"
+			(at 113.03 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BoostConvertor.kicad_sch"
+			(at 113.03 88.9766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VSYS" input
+			(at 113.03 55.88 180)
+			(uuid "af869ace-9073-4dc7-baef-75fbdfaeb43b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5v" input
+			(at 113.03 81.28 180)
+			(uuid "8a170316-776f-4635-96bd-e197e4a036ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "UPS"
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c"
+					(page "4")
 				)
 			)
 		)

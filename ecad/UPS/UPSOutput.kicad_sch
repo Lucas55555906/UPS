@@ -3842,7 +3842,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN-20_MPQ5031_MNP"
+		(property "Footprint" "UPS:QFN-20_MPQ5031_MNP"
 			(at 67.31 64.77 0)
 			(effects
 				(font

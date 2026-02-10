@@ -1280,6 +1280,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 68.58) (xy 168.91 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9131f8aa-671d-41a2-8d94-58411f8c69e1")
+	)
+	(wire
+		(pts
 			(xy 203.2 116.84) (xy 203.2 124.46)
 		)
 		(stroke
@@ -1575,6 +1585,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "VSYS"
+		(shape input)
+		(at 172.72 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c19c327-e2e7-4cee-a15f-ebeffc44ce2c")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2624,7 +2645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RSN0032B-IPC_A"
+		(property "Footprint" "UPS:RSN0032B-IPC_A"
 			(at 115.57 43.18 0)
 			(effects
 				(font
