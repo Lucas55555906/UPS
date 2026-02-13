@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "9d92b60a-4a6b-449c-b462-cab19e69d38c")
 	(paper "A4")
+	(title_block
+		(title "UPS")
+		(company "MTU Open Source Hardware Enterprise")
+	)
 	(lib_symbols)
 	(wire
 		(pts
@@ -40,7 +44,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "Charger.kicad_sch"
 			(at 26.67 89.4846 0)
 			(effects
 				(font

@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "88bd6fb1-4e06-4886-ab3d-9bc9521a3d03")
 	(paper "A4")
+	(title_block
+		(title "Boost Converter")
+		(date "2026-02-12")
+		(rev "1.0")
+		(company "MTU Open Source Hardware Enterprise")
+		(comment 1 "Authors: Alex Ritter, Lucas Centner")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
