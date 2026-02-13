@@ -2856,6 +2856,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 41.91) (xy 67.31 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03354015-dece-4aad-917d-84b01bf676db")
+	)
+	(wire
+		(pts
 			(xy 26.67 115.57) (xy 31.75 115.57)
 		)
 		(stroke
@@ -3096,6 +3106,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 41.91) (xy 130.81 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "496b6831-a5b5-4a91-baf4-ebc35d687b3e")
+	)
+	(wire
+		(pts
 			(xy 118.11 49.53) (xy 134.62 49.53)
 		)
 		(stroke
@@ -3203,6 +3223,16 @@
 			(type default)
 		)
 		(uuid "6061133b-f5ff-4285-a6f2-613667341e95")
+	)
+	(wire
+		(pts
+			(xy 48.26 59.69) (xy 67.31 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608a3bb4-3bf9-4d50-8063-840d1528d96d")
 	)
 	(wire
 		(pts
@@ -3726,6 +3756,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 39.37) (xy 130.81 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7091322-0267-4e42-a454-9fcd406523bf")
+	)
+	(wire
+		(pts
 			(xy 224.79 90.17) (xy 224.79 85.09)
 		)
 		(stroke
@@ -3845,6 +3885,17 @@
 		)
 		(uuid "05b8cc0a-3a3e-49a3-b1c1-6c4239d32a08")
 	)
+	(hierarchical_label "vsel2"
+		(shape output)
+		(at 130.81 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3524345d-c387-4bf9-b01f-096bbcbae894")
+	)
 	(hierarchical_label "vbus"
 		(shape input)
 		(at 22.86 102.87 180)
@@ -3855,6 +3906,28 @@
 			(justify right)
 		)
 		(uuid "4b999b00-fc43-44e1-be7e-abbf0e326166")
+	)
+	(hierarchical_label "vbat_sense"
+		(shape output)
+		(at 130.81 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c25f4886-e428-4b3b-a850-b111b7f9f5d4")
+	)
+	(hierarchical_label "vsel1"
+		(shape output)
+		(at 48.26 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce84b9f8-c412-47bb-a893-7c1fd81cc992")
 	)
 	(hierarchical_label "i2c_sda"
 		(shape input)
@@ -6120,6 +6193,73 @@
 			(project "UPS"
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/c2035c51-7de6-43a1-947f-d073f8318def"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db28da05-7cd1-4973-904b-9ebcd0a20800")
+		(property "Reference" "#PWR020"
+			(at 48.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91d0c2bc-ad7d-4905-b76c-24e48956c8f2")
+		)
+		(instances
+			(project "UPS"
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/c2035c51-7de6-43a1-947f-d073f8318def"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
