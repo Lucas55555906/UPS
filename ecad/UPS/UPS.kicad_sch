@@ -205,7 +205,7 @@
 				(justify right)
 			)
 		)
-		(pin "vbat_sense" output
+		(pin "vbat_sense" input
 			(at 104.14 158.75 0)
 			(uuid "7ec79e14-5595-428d-ada2-ba6824456c31")
 			(effects

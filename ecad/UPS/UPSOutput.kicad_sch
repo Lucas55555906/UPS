@@ -3908,7 +3908,7 @@
 		(uuid "4b999b00-fc43-44e1-be7e-abbf0e326166")
 	)
 	(hierarchical_label "vbat_sense"
-		(shape output)
+		(shape input)
 		(at 130.81 39.37 0)
 		(effects
 			(font
