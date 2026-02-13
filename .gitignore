@@ -2,6 +2,7 @@
 *.bak
 *backups*
 *.lck
+*auto*save*
 
 # cache files
 fp-*cache
