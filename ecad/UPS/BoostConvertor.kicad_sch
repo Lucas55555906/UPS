@@ -2176,7 +2176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0546ae70-1c9e-48dd-a38a-7cd3a194efec")
-		(property "Reference" "C14"
+		(property "Reference" "C20"
 			(at 142.24 64.7699 0)
 			(effects
 				(font
@@ -2194,7 +2194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 139.3952 69.85 0)
 			(effects
 				(font
@@ -2230,7 +2230,7 @@
 		(instances
 			(project ""
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/66173f08-558e-4192-bd35-ba55c00529e3"
-					(reference "C14")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -2245,7 +2245,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "083876cd-c998-48c3-9629-3ff22c9f7971")
-		(property "Reference" "R10"
+		(property "Reference" "R13"
 			(at 160.02 83.8199 0)
 			(effects
 				(font
@@ -2263,7 +2263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 155.702 85.09 90)
 			(effects
 				(font
@@ -2299,7 +2299,7 @@
 		(instances
 			(project ""
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/66173f08-558e-4192-bd35-ba55c00529e3"
-					(reference "R10")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2315,7 +2315,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31cf8323-3a51-47cd-a687-0cd79710c2b2")
-		(property "Reference" "C20"
+		(property "Reference" "C18"
 			(at 54.61 58.4199 0)
 			(effects
 				(font
@@ -2333,7 +2333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 57.4548 63.5 0)
 			(effects
 				(font
@@ -2369,7 +2369,7 @@
 		(instances
 			(project "UPS"
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/66173f08-558e-4192-bd35-ba55c00529e3"
-					(reference "C20")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -2403,7 +2403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 186.69 86.36 0)
 			(effects
 				(font
@@ -2452,7 +2452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35a0114b-5c71-4290-86e3-81437e0906cc")
-		(property "Reference" "C23"
+		(property "Reference" "C24"
 			(at 168.91 73.6599 0)
 			(effects
 				(font
@@ -2470,7 +2470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 171.7548 78.74 0)
 			(effects
 				(font
@@ -2506,7 +2506,7 @@
 		(instances
 			(project "UPS"
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/66173f08-558e-4192-bd35-ba55c00529e3"
-					(reference "C23")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -2593,7 +2593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dc4dccb-2c93-4b36-85ca-66931b47969c")
-		(property "Reference" "C18"
+		(property "Reference" "C23"
 			(at 149.86 85.0899 0)
 			(effects
 				(font
@@ -2611,7 +2611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 147.0152 90.17 0)
 			(effects
 				(font
@@ -2647,7 +2647,7 @@
 		(instances
 			(project "UPS"
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/66173f08-558e-4192-bd35-ba55c00529e3"
-					(reference "C18")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -2663,7 +2663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4414c4e5-e76b-4131-9054-57aea215e4b3")
-		(property "Reference" "C19"
+		(property "Reference" "C26"
 			(at 190.5 73.6599 0)
 			(effects
 				(font
@@ -2681,7 +2681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 187.6552 78.74 0)
 			(effects
 				(font
@@ -2717,7 +2717,7 @@
 		(instances
 			(project "UPS"
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/66173f08-558e-4192-bd35-ba55c00529e3"
-					(reference "C19")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -2733,7 +2733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c0bf175-8162-4437-b758-ccbde2f5668d")
-		(property "Reference" "C13"
+		(property "Reference" "C19"
 			(at 67.31 58.4199 0)
 			(effects
 				(font
@@ -2751,7 +2751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 64.4652 63.5 0)
 			(effects
 				(font
@@ -2787,7 +2787,7 @@
 		(instances
 			(project ""
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/66173f08-558e-4192-bd35-ba55c00529e3"
-					(reference "C13")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -2821,7 +2821,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 157.48 91.44 0)
 			(effects
 				(font
@@ -2870,7 +2870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9737a6ac-da3c-4176-b1fd-e2334c9a8eec")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR0105"
 			(at 57.15 93.98 0)
 			(effects
 				(font
@@ -2920,7 +2920,7 @@
 		(instances
 			(project "UPS"
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/66173f08-558e-4192-bd35-ba55c00529e3"
-					(reference "#PWR015")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -2936,7 +2936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a8bcdd3-9f13-45e9-b1c9-eb08d3be52eb")
-		(property "Reference" "C15"
+		(property "Reference" "C21"
 			(at 82.55 74.9299 0)
 			(effects
 				(font
@@ -2954,7 +2954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 79.7052 80.01 0)
 			(effects
 				(font
@@ -2990,7 +2990,7 @@
 		(instances
 			(project "UPS"
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/66173f08-558e-4192-bd35-ba55c00529e3"
-					(reference "C15")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -3005,7 +3005,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a31db97c-3846-4732-91b2-5497abba58cf")
-		(property "Reference" "R9"
+		(property "Reference" "R14"
 			(at 160.02 73.6599 0)
 			(effects
 				(font
@@ -3023,7 +3023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 155.702 74.93 90)
 			(effects
 				(font
@@ -3059,7 +3059,7 @@
 		(instances
 			(project ""
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/66173f08-558e-4192-bd35-ba55c00529e3"
-					(reference "R9")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3075,7 +3075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acc11f16-4145-4be5-8c26-48450c213b91")
-		(property "Reference" "4.7uH"
+		(property "Reference" "4.7uH1"
 			(at 92.71 45.72 0)
 			(effects
 				(font
@@ -3258,7 +3258,7 @@
 		(instances
 			(project ""
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/66173f08-558e-4192-bd35-ba55c00529e3"
-					(reference "4.7uH")
+					(reference "4.7uH1")
 					(unit 1)
 				)
 			)
@@ -3274,7 +3274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae867ec4-3df0-4f44-a2f0-3459825d0d83")
-		(property "Reference" "C21"
+		(property "Reference" "C28"
 			(at 171.45 82.5499 0)
 			(effects
 				(font
@@ -3292,7 +3292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 168.6052 87.63 0)
 			(effects
 				(font
@@ -3328,7 +3328,7 @@
 		(instances
 			(project ""
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/66173f08-558e-4192-bd35-ba55c00529e3"
-					(reference "C21")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -3343,7 +3343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4125298-a954-4ca7-9f14-1e2de45e9a6c")
-		(property "Reference" "C22"
+		(property "Reference" "C25"
 			(at 180.086 73.406 0)
 			(effects
 				(font
@@ -3361,7 +3361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 178.7652 78.74 0)
 			(effects
 				(font
@@ -3397,7 +3397,7 @@
 		(instances
 			(project "UPS"
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/66173f08-558e-4192-bd35-ba55c00529e3"
-					(reference "C22")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -3431,7 +3431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 190.5 71.12 0)
 			(effects
 				(font
@@ -3480,7 +3480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b71dad4f-07a4-4b0e-9f45-d8ec9823a473")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 139.7 92.7099 0)
 			(effects
 				(font
@@ -3498,7 +3498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 135.382 93.98 90)
 			(effects
 				(font
@@ -3534,7 +3534,7 @@
 		(instances
 			(project ""
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/66173f08-558e-4192-bd35-ba55c00529e3"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -3785,7 +3785,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5cc14a3-ff88-489b-a4f9-197880dda28b")
-		(property "Reference" "C17"
+		(property "Reference" "C22"
 			(at 133.35 87.6301 0)
 			(effects
 				(font
@@ -3803,7 +3803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 136.1948 82.55 0)
 			(effects
 				(font
@@ -3839,7 +3839,7 @@
 		(instances
 			(project "UPS"
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/66173f08-558e-4192-bd35-ba55c00529e3"
-					(reference "C17")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3855,7 +3855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6a384d7-4d35-47eb-a7c4-59fc7af70207")
-		(property "Reference" "C16"
+		(property "Reference" "C27"
 			(at 128.27 54.61 90)
 			(effects
 				(font
@@ -3871,7 +3871,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 132.08 61.2648 0)
 			(effects
 				(font
@@ -3907,7 +3907,7 @@
 		(instances
 			(project "UPS"
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/66173f08-558e-4192-bd35-ba55c00529e3"
-					(reference "C16")
+					(reference "C27")
 					(unit 1)
 				)
 			)

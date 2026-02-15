@@ -5055,7 +5055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RSN0032B-IPC_A"
+		(property "Footprint" "UPS:RSN0032B-IPC_A"
 			(at 115.57 43.18 0)
 			(effects
 				(font
