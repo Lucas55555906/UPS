@@ -286,7 +286,7 @@
 			)
 		)
 		(pin "vbat_sense" input
-			(at 104.14 158.75 0)
+			(at 100.33 158.75 0)
 			(uuid "7ec79e14-5595-428d-ada2-ba6824456c31")
 			(effects
 				(font
@@ -296,7 +296,7 @@
 			)
 		)
 		(pin "vsel1" output
-			(at 104.14 143.51 0)
+			(at 100.33 143.51 0)
 			(uuid "72a062db-8611-48bd-8981-cd890ed30070")
 			(effects
 				(font
@@ -306,7 +306,7 @@
 			)
 		)
 		(pin "vsel2" output
-			(at 104.14 147.32 0)
+			(at 100.33 147.32 0)
 			(uuid "162b0db8-4396-4a47-b05a-6e5720532870")
 			(effects
 				(font
