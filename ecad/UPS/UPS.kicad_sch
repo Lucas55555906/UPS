@@ -143,6 +143,56 @@
 				(justify right)
 			)
 		)
+		(pin "i2c_sda" input
+			(at 100.33 59.69 0)
+			(uuid "5f9a6c81-5ff4-4618-a00c-268864e80719")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "i2c_scl" input
+			(at 100.33 63.5 0)
+			(uuid "ad4c97e5-8ec5-47af-aa0c-92d6224ec6b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "i2c_PROCHOT" input
+			(at 100.33 67.31 0)
+			(uuid "60a48b86-102b-4026-b452-f2306f82a46d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "i2c_chrg_ok" input
+			(at 100.33 71.12 0)
+			(uuid "7dd7641d-2587-49a7-baf7-eba67448919e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "i2c_cmp_out" input
+			(at 100.33 74.93 0)
+			(uuid "059e0445-53a7-4b4f-a7a1-1d3d3bd3c56e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "UPS"
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c"
