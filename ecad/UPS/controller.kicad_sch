@@ -6117,6 +6117,12 @@
 					(unit 1)
 				)
 			)
+			(project "controller"
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6178,6 +6184,12 @@
 		(instances
 			(project "controller"
 				(path "/50450634-21c9-467c-beaf-30f36150c371"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+			(project "controller"
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
 					(reference "#PWR031")
 					(unit 1)
 				)
@@ -6246,6 +6258,12 @@
 					(unit 1)
 				)
 			)
+			(project "controller"
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6306,6 +6324,12 @@
 		(instances
 			(project "controller"
 				(path "/50450634-21c9-467c-beaf-30f36150c371"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+			(project "controller"
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
 					(reference "#PWR013")
 					(unit 1)
 				)
@@ -6406,6 +6430,12 @@
 					(unit 1)
 				)
 			)
+			(project "controller"
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6466,6 +6496,12 @@
 		(instances
 			(project "controller"
 				(path "/50450634-21c9-467c-beaf-30f36150c371"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "controller"
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -6564,6 +6600,12 @@
 					(unit 1)
 				)
 			)
+			(project "controller"
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6624,6 +6666,12 @@
 		(instances
 			(project "controller"
 				(path "/50450634-21c9-467c-beaf-30f36150c371"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "controller"
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
 					(reference "#PWR05")
 					(unit 1)
 				)
@@ -6733,6 +6781,12 @@
 					(unit 1)
 				)
 			)
+			(project "controller"
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6829,6 +6883,12 @@
 					(unit 1)
 				)
 			)
+			(project "controller"
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6889,6 +6949,12 @@
 		(instances
 			(project "controller"
 				(path "/50450634-21c9-467c-beaf-30f36150c371"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+			(project "controller"
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
 					(reference "#PWR024")
 					(unit 1)
 				)
@@ -6957,6 +7023,12 @@
 		(instances
 			(project ""
 				(path "/50450634-21c9-467c-beaf-30f36150c371"
+					(reference "pull-upresistoronSCL")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
 					(reference "pull-upresistoronSCL")
 					(unit 1)
 				)
@@ -7057,6 +7129,12 @@
 					(unit 1)
 				)
 			)
+			(project "controller"
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7127,6 +7205,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
+					(reference "decouplingcapateachVDDpin")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7187,6 +7271,12 @@
 		(instances
 			(project "controller"
 				(path "/50450634-21c9-467c-beaf-30f36150c371"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "controller"
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
 					(reference "#PWR03")
 					(unit 1)
 				)
@@ -7255,6 +7345,12 @@
 		(instances
 			(project ""
 				(path "/50450634-21c9-467c-beaf-30f36150c371"
+					(reference "pull-upresistoronSDA")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
 					(reference "pull-upresistoronSDA")
 					(unit 1)
 				)
@@ -7332,6 +7428,12 @@
 		(instances
 			(project ""
 				(path "/50450634-21c9-467c-beaf-30f36150c371"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
 					(reference "J2")
 					(unit 1)
 				)
@@ -7419,6 +7521,12 @@
 		(instances
 			(project "controller"
 				(path "/50450634-21c9-467c-beaf-30f36150c371"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "controller"
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
 					(reference "C1")
 					(unit 1)
 				)
@@ -7712,12 +7820,12 @@
 					(unit 2)
 				)
 			)
+			(project ""
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
+					(reference "U1")
+					(unit 2)
+				)
+			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
