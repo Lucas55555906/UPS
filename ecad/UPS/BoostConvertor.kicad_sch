@@ -833,6 +833,192 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TPS61288:TPS61288LRQQR"
 			(pin_names
 				(offset 1.016)
@@ -1349,6 +1535,12 @@
 		(uuid "02ac754f-c8de-4316-8b54-23f573c9de20")
 	)
 	(junction
+		(at 186.69 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ea174f7-6f5b-41c7-8491-cf4f7caea91d")
+	)
+	(junction
 		(at 74.93 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1361,13 +1553,25 @@
 		(uuid "25524cd0-4000-4a63-bfb9-b8f2a27349bc")
 	)
 	(junction
-		(at 186.69 78.74)
+		(at 63.5 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dbb72ba-9a12-42d6-8f93-76ee4d295c45")
+	)
+	(junction
+		(at 200.66 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5130feb0-8120-4dd5-a47e-107eb65bb60c")
 	)
 	(junction
-		(at 177.8 78.74)
+		(at 69.85 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5da6e12f-6e77-4c44-a42f-847f4b625ce5")
+	)
+	(junction
+		(at 191.77 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63a26513-1d83-4eed-9a22-295d1e4e2d59")
@@ -1379,7 +1583,7 @@
 		(uuid "67ede3df-3d2c-4275-9355-89434926bb6d")
 	)
 	(junction
-		(at 172.72 71.12)
+		(at 186.69 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "777eb7e7-3b36-4315-bf54-72b00f40ef4a")
@@ -1391,13 +1595,13 @@
 		(uuid "87bc0515-8310-462b-b383-95932cfa8ef3")
 	)
 	(junction
-		(at 186.69 81.28)
+		(at 200.66 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b952385-a46a-4512-bcc9-e1da788eb75a")
 	)
 	(junction
-		(at 177.8 71.12)
+		(at 191.77 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e73d912-8732-4f4c-898c-d647391e6fb5")
@@ -1427,16 +1631,22 @@
 		(uuid "c165d417-ce8c-4e26-b130-ddf59547401f")
 	)
 	(junction
-		(at 186.69 71.12)
+		(at 200.66 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d24dd74c-d610-499c-b1f8-c7db9a70e488")
 	)
 	(junction
-		(at 185.42 71.12)
+		(at 199.39 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc12823d-f210-4638-8d04-2b13d14693c5")
+	)
+	(junction
+		(at 171.45 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de89d75a-9183-40ca-b75b-0ac28f706b14")
 	)
 	(junction
 		(at 63.5 55.88)
@@ -1456,7 +1666,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 71.12) (xy 186.69 71.12)
+			(xy 203.2 71.12) (xy 200.66 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1486,6 +1696,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 78.74) (xy 186.69 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb6580c-703b-49f9-b801-66adcab7f6d9")
+	)
+	(wire
+		(pts
 			(xy 132.08 60.96) (xy 132.08 62.23)
 		)
 		(stroke
@@ -1493,6 +1713,16 @@
 			(type default)
 		)
 		(uuid "37605bec-c38b-4373-b0e6-01a21c26cc70")
+	)
+	(wire
+		(pts
+			(xy 171.45 71.12) (xy 186.69 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eaa6476-37db-4a67-9229-1b21d9c423e8")
 	)
 	(wire
 		(pts
@@ -1513,6 +1743,16 @@
 			(type default)
 		)
 		(uuid "45f15a13-bdaa-4445-b935-60ab3040deba")
+	)
+	(wire
+		(pts
+			(xy 186.69 78.74) (xy 191.77 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b2c238-9c34-4c79-b7c3-665915cde36b")
 	)
 	(wire
 		(pts
@@ -1596,7 +1836,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 82.55) (xy 186.69 81.28)
+			(xy 200.66 82.55) (xy 200.66 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1616,7 +1856,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 52.07) (xy 63.5 52.07)
+			(xy 74.93 52.07) (xy 69.85 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1636,7 +1876,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 71.12) (xy 185.42 71.12)
+			(xy 191.77 71.12) (xy 199.39 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1696,7 +1936,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 71.12) (xy 186.69 71.12)
+			(xy 199.39 71.12) (xy 200.66 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1716,7 +1956,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 81.28) (xy 186.69 78.74)
+			(xy 200.66 81.28) (xy 200.66 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1733,6 +1973,16 @@
 			(type default)
 		)
 		(uuid "a0a9afef-6ab1-4026-8504-2baeaf753318")
+	)
+	(wire
+		(pts
+			(xy 69.85 52.07) (xy 63.5 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6bc2ffc-e3a2-4d34-a4ef-f2f6d13293f5")
 	)
 	(wire
 		(pts
@@ -1786,7 +2036,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 71.12) (xy 177.8 71.12)
+			(xy 186.69 71.12) (xy 191.77 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1806,7 +2056,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 71.12) (xy 172.72 71.12)
+			(xy 157.48 71.12) (xy 171.45 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1876,13 +2126,23 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 78.74) (xy 186.69 78.74)
+			(xy 191.77 78.74) (xy 200.66 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f0050ba5-988a-4612-aa23-8bcdccd51759")
+	)
+	(wire
+		(pts
+			(xy 59.69 52.07) (xy 63.5 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14ef3d4-0c1d-4e63-8fc7-06adf0ec8b42")
 	)
 	(wire
 		(pts
@@ -1896,13 +2156,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 78.74) (xy 177.8 78.74)
+			(xy 50.8 52.07) (xy 52.07 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f72bfede-c002-4fe4-a1fa-5f1549d244f9")
+		(uuid "f8858c99-2e64-4bb5-b897-73d36ceb565e")
 	)
 	(label "Vcc"
 		(at 124.46 59.69 180)
@@ -2102,7 +2362,7 @@
 	)
 	(global_label "PGND"
 		(shape input)
-		(at 186.69 82.55 270)
+		(at 200.66 82.55 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2112,7 +2372,7 @@
 		)
 		(uuid "c5f62cfb-3040-4b32-8c4d-3c1b1f262b6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.69 90.6757 90)
+			(at 200.66 90.6757 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2144,9 +2404,20 @@
 			)
 		)
 	)
+	(hierarchical_label "VSYS"
+		(shape input)
+		(at 50.8 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e3f18d8-f079-4835-9e57-3e3a86057c83")
+	)
 	(hierarchical_label "5v"
 		(shape input)
-		(at 189.23 71.12 0)
+		(at 203.2 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2154,17 +2425,6 @@
 			(justify left)
 		)
 		(uuid "8c8937ed-addf-458d-a8a6-1da91dfea6a4")
-	)
-	(hierarchical_label "VSYS"
-		(shape input)
-		(at 63.5 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bf10b90f-8654-4de2-b661-8e7d32eca183")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2333,7 +2593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 88.9 67.31 0)
 			(effects
 				(font
@@ -2444,7 +2704,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 186.69 81.28 270)
+		(at 200.66 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2453,7 +2713,7 @@
 		(fields_autoplaced yes)
 		(uuid "331490fe-0953-4ae4-8daa-c3ecd382342a")
 		(property "Reference" "TP3"
-			(at 191.77 80.0099 90)
+			(at 205.74 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2462,7 +2722,7 @@
 			)
 		)
 		(property "Value" "PGNDTest"
-			(at 191.77 82.5499 90)
+			(at 205.74 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,8 +2730,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 186.69 86.36 0)
+		(property "Footprint" "UPS:TespointBig"
+			(at 200.66 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2480,7 +2740,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 86.36 0)
+			(at 200.66 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2489,7 +2749,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 186.69 81.28 0)
+			(at 200.66 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2771,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 172.72 74.93 0)
+		(at 186.69 74.93 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2520,7 +2780,7 @@
 		(dnp no)
 		(uuid "35a0114b-5c71-4290-86e3-81437e0906cc")
 		(property "Reference" "C24"
-			(at 168.91 73.6599 0)
+			(at 182.88 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2529,7 +2789,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 170.18 75.946 0)
+			(at 184.15 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,7 +2798,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 171.7548 78.74 0)
+			(at 185.7248 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,7 +2807,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 74.93 0)
+			(at 186.69 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2556,7 +2816,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 172.72 74.93 0)
+			(at 186.69 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,7 +2982,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 186.69 74.93 0)
+		(at 200.66 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2731,7 +2991,7 @@
 		(fields_autoplaced yes)
 		(uuid "4414c4e5-e76b-4131-9054-57aea215e4b3")
 		(property "Reference" "C26"
-			(at 190.5 73.6599 0)
+			(at 204.47 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,7 +3000,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 190.5 76.1999 0)
+			(at 204.47 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2749,7 +3009,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 187.6552 78.74 0)
+			(at 201.6252 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2758,7 +3018,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 74.93 0)
+			(at 200.66 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +3027,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 186.69 74.93 0)
+			(at 200.66 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2861,6 +3121,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 55.88 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a052027-40fb-4741-a23e-e584927c1829")
+		(property "Reference" "JP1"
+			(at 55.88 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f97d2d35-4fa3-4080-a6bf-2541a8921247")
+		)
+		(pin "2"
+			(uuid "25f823cf-ff18-48d0-b7ed-0078f7edebf8")
+		)
+		(instances
+			(project ""
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/66173f08-558e-4192-bd35-ba55c00529e3"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 162.56 91.44 180)
 		(unit 1)
@@ -2888,7 +3217,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 157.48 91.44 0)
 			(effects
 				(font
@@ -3133,6 +3462,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 69.85 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5b64dfe-5a68-4093-a372-cc25dd4fecf2")
+		(property "Reference" "TP5"
+			(at 72.39 47.4979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Vin"
+			(at 72.39 50.0379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UPS:TespointBig"
+			(at 74.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 69.85 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6042206-78f5-4a25-9cd8-564a5867c3f9")
+		)
+		(instances
+			(project "UPS"
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/66173f08-558e-4192-bd35-ba55c00529e3"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Indcutor:ETQP8M4R7JFA")
 		(at 92.71 52.07 0)
 		(unit 1)
@@ -3350,7 +3746,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3900pF"
+		(property "Value" "1pF"
 			(at 171.45 85.0899 0)
 			(effects
 				(font
@@ -3403,7 +3799,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 177.8 74.93 0)
+		(at 191.77 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3411,7 +3807,7 @@
 		(dnp no)
 		(uuid "b4125298-a954-4ca7-9f14-1e2de45e9a6c")
 		(property "Reference" "C25"
-			(at 180.086 73.406 0)
+			(at 194.056 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,7 +3816,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 180.848 75.692 0)
+			(at 194.818 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3429,7 +3825,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 178.7652 78.74 0)
+			(at 192.7352 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,7 +3834,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 74.93 0)
+			(at 191.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,7 +3843,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 177.8 74.93 0)
+			(at 191.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +3868,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 185.42 71.12 0)
+		(at 199.39 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3481,7 +3877,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5dd5001-728a-447a-9186-a10235073458")
 		(property "Reference" "TP1"
-			(at 187.96 66.5479 0)
+			(at 201.93 66.5479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +3886,7 @@
 			)
 		)
 		(property "Value" "5vTest"
-			(at 187.96 69.0879 0)
+			(at 201.93 69.0879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,8 +3894,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 190.5 71.12 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 204.47 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,7 +3904,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 71.12 0)
+			(at 204.47 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3517,7 +3913,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 185.42 71.12 0)
+			(at 199.39 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,7 +4326,7 @@
 				)
 			)
 		)
-		(property "Value" "2.3uF"
+		(property "Value" "2.2uF"
 			(at 128.27 57.15 90)
 			(effects
 				(font
@@ -3975,6 +4371,76 @@
 			(project "UPS"
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/66173f08-558e-4192-bd35-ba55c00529e3"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 171.45 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb0456ed-d0fc-459e-a40d-4af694db2a44")
+		(property "Reference" "C3"
+			(at 175.26 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".1uF"
+			(at 175.26 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 172.4152 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 171.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71480270-349d-49f5-a467-8fd69f5cedf3")
+		)
+		(pin "2"
+			(uuid "327d543f-9e49-460c-be7e-f0e22c81be7b")
+		)
+		(instances
+			(project "UPS"
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/66173f08-558e-4192-bd35-ba55c00529e3"
+					(reference "C3")
 					(unit 1)
 				)
 			)
