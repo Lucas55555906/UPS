@@ -6337,108 +6337,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 175.26 127 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061c919b7")
-		(property "Reference" "R2"
-			(at 173.7614 128.1684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 173.7614 125.857 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 175.26 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/ProductDetail/Bourns/CR0805-FX-1002ELF?qs=tknLyCMIRbPr%252BDD0s0nG9g%3D%3D"
-			(at 175.26 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick Film Resistors - SMD 10K 1%"
-			(at 175.26 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0805-FX-1002ELF"
-			(at 175.26 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "652-CR0805FX-1002ELF"
-			(at 175.26 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "~"
-			(at 175.26 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a8fe503-990a-4da4-96df-e4b246d9b426")
-		)
-		(pin "2"
-			(uuid "8edaf2cd-b1a8-4dd2-9909-b0da30c93ef2")
-		)
-		(instances
-			(project "controller"
-				(path "/50450634-21c9-467c-beaf-30f36150c371"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-			(project "controller"
-				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 175.26 129.54 180)
 		(unit 1)
@@ -6679,219 +6577,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 95.25 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061cf5987")
-		(property "Reference" "D1"
-			(at 96.2406 58.8772 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 93.9292 58.8772 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 95.25 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/ProductDetail/Kingbright/AP2012HD?qs=sXafwHSx%252BU%252BY8L%2FmM05PMw%3D%3D"
-			(at 95.25 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standard LEDs - SMD RED DIFFUSED"
-			(at 95.25 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "Standard LEDs - SMD RED DIFFUSED"
-			(at 95.25 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "AP2012HD"
-			(at 95.25 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Kingbright"
-			(at 95.25 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "604-AP2012HD"
-			(at 95.25 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "74424873-4ded-4665-95cb-8dddd7f10bf5")
-		)
-		(pin "1"
-			(uuid "20f9ae80-e361-4a43-954c-160bb1617dc7")
-		)
-		(instances
-			(project "controller"
-				(path "/50450634-21c9-467c-beaf-30f36150c371"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-			(project "controller"
-				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 87.63 55.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061cf5cc5")
-		(property "Reference" "R7"
-			(at 88.7984 57.3786 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.5K"
-			(at 86.487 57.3786 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 87.63 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/ProductDetail/Vishay-Dale/RCC08051K50FKEA?qs=sGAEpiMZZMv0NwlthflBi0VoJ%2FyODBQ3pPvXTEnBb2U%3D"
-			(at 87.63 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick Film Resistors - SMD 1/4W 1.5Kohms 1% 100ppm"
-			(at 87.63 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCC08051K50FKEA"
-			(at 87.63 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "71-RCC08051K50FKEA"
-			(at 87.63 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "~"
-			(at 87.63 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ce0acb41-065e-4c6a-903b-e7fdd89a3d4d")
-		)
-		(pin "1"
-			(uuid "0c3d93f5-dc7c-4390-a7de-8ec843f09709")
-		)
-		(instances
-			(project "controller"
-				(path "/50450634-21c9-467c-beaf-30f36150c371"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-			(project "controller"
-				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 83.82 55.88 270)
 		(unit 1)
@@ -7036,43 +6721,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 161.29 121.92 0)
+		(lib_id "Device:LED")
+		(at 95.25 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0075470d-37c6-4ebb-b725-d3c78a08b093")
-		(property "Reference" "R1"
-			(at 162.7886 120.7516 0)
+		(uuid "005faf31-d67a-4142-b4e7-1f9c6c3f8220")
+		(property "Reference" "D6"
+			(at 96.2406 58.8772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10K"
-			(at 162.7886 123.063 0)
+		(property "Value" "LED"
+			(at 93.9292 58.8772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 161.29 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/ProductDetail/Bourns/CR0805-FX-1002ELF?qs=tknLyCMIRbPr%252BDD0s0nG9g%3D%3D"
-			(at 161.29 121.92 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 95.25 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7080,8 +6756,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 10K 1%"
-			(at 161.29 121.92 0)
+		(property "Datasheet" "https://www.mouser.fr/ProductDetail/Kingbright/AP2012HD?qs=sXafwHSx%252BU%252BY8L%2FmM05PMw%3D%3D"
+			(at 95.25 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7089,8 +6765,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0805-FX-1002ELF"
-			(at 161.29 121.92 0)
+		(property "Description" "Standard LEDs - SMD RED DIFFUSED"
+			(at 95.25 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7098,8 +6774,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "652-CR0805FX-1002ELF"
-			(at 161.29 121.92 0)
+		(property "DESCRIPTION" "Standard LEDs - SMD RED DIFFUSED"
+			(at 95.25 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7107,8 +6783,26 @@
 				(hide yes)
 			)
 		)
-		(property "DESCRIPTION" "~"
-			(at 161.29 121.92 0)
+		(property "MPN" "AP2012HD"
+			(at 95.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 95.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "604-AP2012HD"
+			(at 95.25 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7117,21 +6811,111 @@
 			)
 		)
 		(pin "2"
-			(uuid "43867566-a6b2-4260-ac9a-e58bee03afe1")
+			(uuid "0afe30d9-84cb-4ac0-b0c8-511e6da09227")
 		)
 		(pin "1"
-			(uuid "37f7c9cd-0537-43fb-9e53-3c07bb9fe88a")
+			(uuid "69ed94b4-7f39-4ee5-9c7a-73825233b893")
 		)
 		(instances
-			(project "controller"
-				(path "/50450634-21c9-467c-beaf-30f36150c371"
-					(reference "R1")
+			(project "UPS"
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
+					(reference "D6")
 					(unit 1)
 				)
 			)
-			(project "controller"
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 175.26 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09acadea-6d45-4eb2-bb5a-87ff5cb48fe4")
+		(property "Reference" "R29"
+			(at 173.7614 128.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 173.7614 125.857 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 175.26 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/ProductDetail/Bourns/CR0805-FX-1002ELF?qs=tknLyCMIRbPr%252BDD0s0nG9g%3D%3D"
+			(at 175.26 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 10K 1%"
+			(at 175.26 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0805-FX-1002ELF"
+			(at 175.26 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "652-CR0805FX-1002ELF"
+			(at 175.26 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "~"
+			(at 175.26 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "388b2b5a-176f-48a0-89c8-09a3b5259903")
+		)
+		(pin "2"
+			(uuid "5d8f8c28-dad9-4f74-a984-ddd6ac66664d")
+		)
+		(instances
+			(project "UPS"
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
-					(reference "R1")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -7284,6 +7068,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 87.63 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "360b76a8-327a-46dc-a1d4-371e0aa49d4f")
+		(property "Reference" "R33"
+			(at 88.7984 57.3786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5K"
+			(at 86.487 57.3786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 87.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/ProductDetail/Vishay-Dale/RCC08051K50FKEA?qs=sGAEpiMZZMv0NwlthflBi0VoJ%2FyODBQ3pPvXTEnBb2U%3D"
+			(at 87.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 1/4W 1.5Kohms 1% 100ppm"
+			(at 87.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCC08051K50FKEA"
+			(at 87.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "71-RCC08051K50FKEA"
+			(at 87.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "~"
+			(at 87.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7239ca66-d095-45dc-83e1-ea94c4239598")
+		)
+		(pin "1"
+			(uuid "3cfbee0c-aa8f-44b3-b9ef-915573266599")
+		)
+		(instances
+			(project "UPS"
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 88.9 106.68 90)
 		(unit 1)
@@ -7367,7 +7247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab728ea2-ebfd-48cc-8a23-9bac58fc271e")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 74.295 71.12 0)
 			(effects
 				(font
@@ -7434,7 +7314,103 @@
 			)
 			(project ""
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
-					(reference "J2")
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 161.29 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb89158f-c400-47d9-b5d5-07c4c53a6d96")
+		(property "Reference" "R28"
+			(at 162.7886 120.7516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 162.7886 123.063 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 161.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/ProductDetail/Bourns/CR0805-FX-1002ELF?qs=tknLyCMIRbPr%252BDD0s0nG9g%3D%3D"
+			(at 161.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 10K 1%"
+			(at 161.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0805-FX-1002ELF"
+			(at 161.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "652-CR0805FX-1002ELF"
+			(at 161.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "~"
+			(at 161.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b6b0fb23-01e0-45f4-b747-328def3c31c6")
+		)
+		(pin "1"
+			(uuid "a2255aa1-97c3-40a1-873e-fbd7762d6235")
+		)
+		(instances
+			(project "UPS"
+				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -7448,8 +7424,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e5eb0ff4-bcc7-402c-9293-50abcd3810cb")
-		(property "Reference" "C1"
+		(uuid "ddb7d497-6438-48ac-8b10-25aca2e7e2eb")
+		(property "Reference" "C4"
 			(at 172.9232 115.4684 0)
 			(effects
 				(font
@@ -7513,21 +7489,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b08fa66-bcc6-4408-b173-955083764bd0")
+			(uuid "381c4cb2-4718-4d34-ae86-755a2deeeec5")
 		)
 		(pin "2"
-			(uuid "af95da02-7fa3-4b34-972a-021ccd0fa71b")
+			(uuid "77689b04-077b-46ed-9db3-3595ac9e79f8")
 		)
 		(instances
-			(project "controller"
-				(path "/50450634-21c9-467c-beaf-30f36150c371"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "controller"
+			(project "UPS"
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
-					(reference "C1")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7542,7 +7512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3e157e2-8373-4941-a9f1-6d26397df53a")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 129.54 116.586 0)
 			(effects
 				(font
@@ -7822,7 +7792,7 @@
 			)
 			(project ""
 				(path "/9d92b60a-4a6b-449c-b462-cab19e69d38c/1d606685-c4fd-4b8c-9a71-b1626d28c437"
-					(reference "U1")
+					(reference "U4")
 					(unit 2)
 				)
 			)
